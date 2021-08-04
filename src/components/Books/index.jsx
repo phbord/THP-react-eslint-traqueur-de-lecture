@@ -6,13 +6,13 @@ const Books = ({data}) => {
 
     console.log(books)
     return (
-        <div className="books-list">
+        <ul className="books-list row">
             {books[0].map((book, index) => {
                 return (
                     <Book data={book} key={index}/>
                 )
             })}
-        </div>
+        </ul>
     )
 }
 

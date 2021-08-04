@@ -1,2 +1,26 @@
-//@import "custom";
 @import "~bootstrap/scss/bootstrap";
+
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 600px;
+}
+.card-img-top {
+    height: 200px;
+
+    img {
+        max-height: 200px;
+    }
+}
+.card-title {
+    height: 48px;
+    font-size: 1.25rem;
+}
+.card-sub-body {
+    height: 262px;
+    overflow: hidden;
+}
