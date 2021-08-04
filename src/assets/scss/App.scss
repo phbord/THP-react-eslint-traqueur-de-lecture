@@ -8,6 +8,7 @@ ul,li {
 
 .card {
     height: 600px;
+    overflow: hidden;
 }
 .card-img-top {
     height: 200px;
@@ -19,6 +20,7 @@ ul,li {
 .card-title {
     height: 48px;
     font-size: 1.25rem;
+    overflow: hidden;
 }
 .card-sub-body {
     height: 262px;

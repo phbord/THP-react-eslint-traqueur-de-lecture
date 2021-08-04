@@ -2,12 +2,10 @@ import React from 'react';
 import Book from 'components/Book';
 
 const Books = ({data}) => {
-    const {books} = data
-
-    console.log(books)
+    console.log('data: ', data)
     return (
         <ul className="books-list row">
-            {books[0].map((book, index) => {
+            {data.map((book, index) => {
                 return (
                     <Book data={book} key={index}/>
                 )
